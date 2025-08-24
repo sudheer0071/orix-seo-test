@@ -1,0 +1,1 @@
+import{a as t}from"./index-BYROHmHR.js";function s(){const[n,i]=t.useState(window.innerWidth);return t.useEffect(()=>{const e=()=>i(window.innerWidth);return window.addEventListener("resize",e),()=>window.removeEventListener("resize",e)},[]),n}export{s as u};
